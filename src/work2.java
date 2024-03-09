@@ -5,13 +5,13 @@ public class work2 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter the amount of money in the original currency:");
-        double cantidadOriginal = scanner.nextDouble();
+        double OriginalQuantity = scanner.nextDouble();
 
         System.out.println("Enter the exchange rate from the original currency to the destination currency:");
-        double tasaCambio = scanner.nextDouble();
+        double ChangeRate = scanner.nextDouble();
 
-        double cantidadDestino = cantidadOriginal * tasaCambio;
+        double DestinationQuantity = OriginalQuantity * ChangeRate;
 
-        System.out.println("The amount of money in the destination currency is: " + cantidadDestino);
+        System.out.println("The amount of money in the destination currency is: " + DestinationQuantity);
     }
 }
